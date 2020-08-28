@@ -1,0 +1,37 @@
+.logo{
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-right: auto;
+  background-image: url('../assets/logo/background.png');
+  margin-bottom: 2vh;
+}
+
+.nav{
+  position: absolute;
+  margin-left: 10rem;
+  top:2vh;
+}
+.github{
+  position: absolute;
+  width: 5vw;
+  right: 10rem;
+  top:2vh;
+}
+
+.nav a{
+  display: block;
+  text-decoration :inherit;
+  font-family: "Nova Square";
+  color: white;
+  font-size: 1.3vw;
+}
+.nav a:hover{
+  font-style: oblique;
+}
+
+.nav a.active{
+  font-style: oblique;
+}
